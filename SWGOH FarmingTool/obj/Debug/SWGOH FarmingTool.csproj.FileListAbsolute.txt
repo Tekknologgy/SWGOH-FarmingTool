@@ -8,3 +8,13 @@ D:\VisualStudio\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.csproj.GenerateRes
 D:\VisualStudio\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.csproj.CoreCompileInputs.cache
 D:\VisualStudio\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.exe
 D:\VisualStudio\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.pdb
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\bin\Debug\SWGOH FarmingTool.exe.config
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\bin\Debug\SWGOH FarmingTool.exe
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\bin\Debug\SWGOH FarmingTool.pdb
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.csprojAssemblyReference.cache
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\obj\Debug\SWGOH_FarmingTool.SWGOH_FarmingTool.resources
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\obj\Debug\SWGOH_FarmingTool.Properties.Resources.resources
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.csproj.GenerateResource.cache
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.csproj.CoreCompileInputs.cache
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.exe
+D:\GitHub\SWGOH-FarmingTool\SWGOH FarmingTool\obj\Debug\SWGOH FarmingTool.pdb
