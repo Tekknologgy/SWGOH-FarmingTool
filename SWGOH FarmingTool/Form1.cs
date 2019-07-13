@@ -10,16 +10,24 @@ using System.Windows.Forms;
 
 namespace SWGOH_FarmingTool
 {
-    public partial class SWGOH_FarmingTool : Form
+    public partial class frmSWGOH_FarmingTool : Form
     {
-        public SWGOH_FarmingTool()
+        public frmSWGOH_FarmingTool()
         {
             InitializeComponent();
+            lstChars.Items.Add("Bastila Shan");
+            lstChars.Items.Add("Jolee Bindo");
+            lstChars.Items.Add("Zaalbar");
         }
 
         private void BtnMod_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Mod angeklickt");
+        }
+
+        private void LstChars_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show(lstChars.GetItemText(lstChars.SelectedItem));
         }
     }
 }

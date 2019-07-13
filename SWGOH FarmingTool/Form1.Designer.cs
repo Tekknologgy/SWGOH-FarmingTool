@@ -1,6 +1,6 @@
 ﻿namespace SWGOH_FarmingTool
 {
-    partial class SWGOH_FarmingTool
+    partial class frmSWGOH_FarmingTool
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -35,7 +35,7 @@
             this.btnMod = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lstChars = new System.Windows.Forms.ListBox();
             this.tabMods = new System.Windows.Forms.TabPage();
             this.tabGear = new System.Windows.Forms.TabPage();
             this.tabShards = new System.Windows.Forms.TabPage();
@@ -62,7 +62,7 @@
             this.tabChars.Controls.Add(this.grpMods);
             this.tabChars.Controls.Add(this.btnMinus);
             this.tabChars.Controls.Add(this.btnPlus);
-            this.tabChars.Controls.Add(this.listBox1);
+            this.tabChars.Controls.Add(this.lstChars);
             this.tabChars.Location = new System.Drawing.Point(4, 22);
             this.tabChars.Name = "tabChars";
             this.tabChars.Padding = new System.Windows.Forms.Padding(3);
@@ -120,18 +120,14 @@
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // lstChars
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "Char1",
-            "Char2",
-            "Char3",
-            "Char4"});
-            this.listBox1.Location = new System.Drawing.Point(6, 6);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(157, 433);
-            this.listBox1.TabIndex = 0;
+            this.lstChars.FormattingEnabled = true;
+            this.lstChars.Location = new System.Drawing.Point(6, 6);
+            this.lstChars.Name = "lstChars";
+            this.lstChars.Size = new System.Drawing.Size(157, 433);
+            this.lstChars.TabIndex = 0;
+            this.lstChars.SelectedIndexChanged += new System.EventHandler(this.LstChars_SelectedIndexChanged);
             // 
             // tabMods
             // 
@@ -163,13 +159,13 @@
             this.tabShards.Text = "Shards";
             this.tabShards.UseVisualStyleBackColor = true;
             // 
-            // SWGOH_FarmingTool
+            // frmSWGOH_FarmingTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1034, 596);
             this.Controls.Add(this.tabControlMain);
-            this.Name = "SWGOH_FarmingTool";
+            this.Name = "frmSWGOH_FarmingTool";
             this.Text = "SWGOH FarmingTool";
             this.tabControlMain.ResumeLayout(false);
             this.tabChars.ResumeLayout(false);
@@ -185,7 +181,7 @@
         private System.Windows.Forms.TabPage tabMods;
         private System.Windows.Forms.TabPage tabGear;
         private System.Windows.Forms.TabPage tabShards;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstChars;
         private System.Windows.Forms.GroupBox grpGear;
         private System.Windows.Forms.GroupBox grpMods;
         private System.Windows.Forms.Button btnMod;

@@ -16,7 +16,7 @@ namespace SWGOH_FarmingTool
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SWGOH_FarmingTool());
+            Application.Run(new frmSWGOH_FarmingTool());
         }
     }
 }
